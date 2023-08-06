@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;900&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Roboto,sans-serif;
+    line-height: 1.1;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#dsf{
+    align-items: center;
+    justify-content: center;
+}
+
+.fa-home, .fa-film, .fa-ticket, .fa-video-camera, .fa-phone-square, .fa-user, .fa-user-plus, .fa-camera{          
+    color: #e39535;
+    width: 1.1vw;
+}
+
+#topLogo{
+    height: 6vw;
+    width: 6.5vw;
+    margin-left: 2vw;
+    
+}
+
+#title{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    width: 80vw;
+    margin-left: 12vw;
+    margin-top: -3.5vw;
+    background-color:#2b2b2b ; 
+}
+ul{
+    list-style-type: none; 
+        
+}
+
+a{
+    text-decoration: none;
+    color: white;  
+    background-color:#2b2b2b ;
+    
+}
+nav{
+    background-color:#2b2b2b ;
+    height: 6vw;
+    width: 100vw;
+    
+}
+
+#selectedNavItem{
+    /* border-bottom: 3.5px solid white; */
+    color:#c46e06 ;
+    font-weight: bold;
+    
+}
+
+
+#li_id{
+    margin-right: 3.5vw;
+    margin-left: -1vw;
+}
+
+.loginBody{
+    background-color: #f4bc78;
+    /* background-image: linear-gradient(#efcb9f,  #cb9010,#8d5f04); */
+    height: 60vw;
+    width: 100vw;
+    border: 1px solid white;
+}
+.container {
+    margin-top: 3vw;  
+    margin-left: 30vw;
+    width:40vw;
+    height:53vw;
+    position: relative;
+    box-sizing: border-box;
+    padding:2.81vw;
+    border-radius:1.4vw;
+    background:#fbddb8;
+    box-shadow: 15px 15px 20px 3px #e88a18, -5px -5px 10px 2px #f5d4ac;
+
+}
+
+#logoDiv{
+    margin: 0 13vw;
+    width: 50vw;
+}
+
+.brand_logo {
+    width:100px;
+    margin:auto;
+    border-radius:50%;
+    box-sizing:border-box;
+    box-shadow: 3px 4px 7px #d88014, -8px -8px 10px #f8d3a6;
+}
+
+.brand_name {
+    font-weight:900;
+    margin-top:8px;
+    font-size: 2rem;
+    color:#f7941d;
+    text-align: center;
+    width: 33vw;
+    letter-spacing: 1px;
+}
+
+.inputs{
+    text-align:left;
+    margin-top:10px;
+    width: 60vw;
+}
+
+label, input, .box,button{
+    display:block;
+    width:100%;
+    padding:0px;
+    border:none;
+    outline:none;
+    box-sizing:boder-box;
+    
+}
+
+label {
+    margin-bottom:4px;
+    width: 35vw;
+}
+
+ label:nth-of-type(2) {          /* every <label> element that is 2nd of its parent(only password ko margin chai ajhai tala lyako  */
+    margin-top:2px;
+
+} 
+
+input::placeholder{
+    color:#e8a34e;
+    width: 30vw;
+}
+
+input:not([type=radio]), .box {
+    background:hsl(33, 100%, 89%);
+    padding:7px;
+    width: 33vw;
+    padding-left:10px;
+    height:50px;
+    font-size:20px;
+    color:#995707;
+    /* border: 1px solid red; */
+    border-radius:15px;
+     box-shadow:inset 10px 10px 6px #fbd09d, inset -10px -10px 6px #ffe4c4; /*inset le shadow bhitra tira lagdinxa */
+}
+
+.box{
+    background-color: green;
+}
+#radioButton{
+    border: 2px solid red;
+    width: 1vw;
+    margin-top: 1vw;
+    margin-bottom:-1vw;
+}
+
+button {
+    margin-bottom:500px;
+    background:#f7941d;
+    border-radius:20px;
+    height:40px;
+    font-weight:bold;
+    cursor:pointer;    
+    box-shadow: 5px 7px 8px #efb063, -2px -2px 2px #f4d9b8;
+    transition: 2s;
+    width: 33vw;
+}
+
+form{
+    width: 32.5vw;
+}
+button:hover{
+     box-shadow:none;
+}
+
+.termsCondition{
+    background:#fbe6cd;
+    color:#995707;
+}
+
+.termsCondition:hover{
+    color: black;
+    font-size: 1vw;
+}
+
+
+
+
+footer{
+    background-color: #edab5a;
+        /* background-image: linear-gradient(#b86602,  #e5b628,#8d5f04); */
+    margin-top: -2vw;
+    margin-bottom: 0vw;
+
+}
+
+#partnerImg{
+    width: 10vw;
+    margin : 1vw 0;
+}
+
+.partner{
+    /* border: 2px solid red; */
+    width: 100vw;
+    padding-top: 5vw;
+    width: 80vw;
+    margin: 1vw 9vw;
+}
+
+#partnerText{
+    font-size: 1.8vw;
+    color: rgb(120, 11, 203);
+    border-bottom: 2px solid grey;
+    font-family: 'Alegreya', serif;
+
+    /* border: 2px solid red; */
+    width: 80vw;
+  
+}
+
+#partnerText2{
+    font-size: 1vw;
+    /* color: rgb(120, 11, 203); */
+    /* border-bottom: 2px solid grey; */
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* margin-top: -1vw; */
+    /* border: 2px solid red; */
+    width: 80vw;
+  
+}
+
+.linkText2{
+    background-color: #eeb46c;
+    text-align: center;
+    /* border: 2px solid red; */
+
+
+}
+
+p{
+    width: 90vw;
+    /* border: 2px solid red; */
+    padding: 1vw;
+}
+
+
+.foot{
+    margin: 6vw 6vw 0vw 6vw;
+    text-align: center;
+    
+    width: 90vw;
+    /* border: 2px solid red; */
+}
+
+.fa-facebook-square, .fa-instagram, .fa-twitter,.fa-whatsapp, .fa-share-square{
+    color: rgb(242, 242, 242);
+    width: 1.1vw;
+    
+}
+
+
+
+

@@ -1,0 +1,217 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Roboto,sans-serif;
+    line-height: 1.1;
+    /* width: 100vw; */
+    /* margin: 0; */
+    /* padding: 0; */
+    /* color: white; */
+    /* box-sizing: border-box; */
+    /* background-color: rgb(10, 10, 9); */
+    
+}
+body{
+    background-color: #e39535;
+    color: white;
+}
+
+.fa-home, .fa-film, .fa-ticket, .fa-video-camera, .fa-phone-square, .fa-user, .fa-user-plus, .fa-camera{       
+    color: #e39535;
+    /* border: 1px solid red; */
+    width: 1.5vw;
+}
+
+#topLogo{
+    height: 6vw;
+    width: 6.5vw;
+    margin-left: 2vw;
+    
+}
+
+#title{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    width: 80vw;
+    margin-left: 12vw;
+    margin-top: -3.5vw;
+    background-color:#2b2b2b ; 
+}
+ul{
+    list-style-type: none; 
+        
+}
+
+a{
+    text-decoration: none;
+    color: white;  
+    background-color:#2b2b2b ;
+    
+}
+nav{
+    background-color:#2b2b2b ;
+    height: 6vw;
+    width: 99vw;
+    
+}
+
+#selectedNavItem{
+    /* border-bottom: 3.5px solid white; */
+    color:#c46e06 ;
+    font-weight: bold;
+    
+}
+
+
+#ticket{
+    /* border: 1px solid red; */
+    float: left;
+    width: 30vw;
+    margin-right: -10vw;
+}
+#ticket:hover{
+    width: 35vw;
+    margin-right: -15vw;
+
+
+}
+
+form{
+    max-width: 1200px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
+    padding:2rem;
+    margin:0 auto;
+    border:var(--border);
+    background-color: var(--light-bg);
+    border-radius: .5rem;
+    font-size: 22px;
+    border: 2px solid wheat;
+    border-style: dashed;
+    margin: 5vw 0;
+ }
+ 
+form h3{
+    text-align: center;
+    margin-bottom: 2rem;
+    color:var(--black);
+    text-transform: uppercase;
+    font-size: 3rem;
+ }
+
+ input, select{
+     height: 2.5vw;
+     width: 20vw;
+     font-size: 15px;
+     border-radius: 7px;
+     border-color: #e39535;
+     text-align: center;
+ }
+.btn{
+    width: 25vw;
+    height: 2.5vw;
+    margin: 0 2vw;
+    border-radius: 10px;
+    border: #e39535;
+    color: white;
+    background-color: #9b5806;
+  }
+
+.btn:hover{
+    color: #9b5806 ;
+    background-color:    white; 
+    font-weight: bold;
+    font-size: 18px;
+}
+#optionForPay{
+    width: 20vw;
+    height: 2.5vw;
+    text-align: center;
+    border-color: #e39535;
+    font-size: 15px;
+}
+ 
+table span{
+    color:black;
+    border: 1px solid white;
+    background-color: white;
+    padding:10px;
+}
+
+
+ 
+footer{
+    background-color: #edab5a;
+        /* background-image: linear-gradient(#b86602,  #e5b628,#8d5f04); */
+    margin-top: -2vw;
+    margin-bottom: 0vw;
+
+}
+
+#partnerImg{
+    width: 10vw;
+    margin : 1vw 0;
+}
+
+.partner{
+    /* border: 2px solid red; */
+    width: 100vw;
+    padding-top: 5vw;
+    width: 80vw;
+    margin: 1vw 9vw;
+}
+
+#partnerText{
+    font-size: 1.8vw;
+    color: rgb(120, 11, 203);
+    border-bottom: 2px solid grey;
+    font-family: 'Alegreya', serif;
+
+    /* border: 2px solid red; */
+    width: 80vw;
+  
+}
+
+#partnerText2{
+    font-size: 1vw;
+    /* color: rgb(120, 11, 203); */
+    /* border-bottom: 2px solid grey; */
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* margin-top: -1vw; */
+    /* border: 2px solid red; */
+    width: 80vw;
+  
+}
+
+.linkText2{
+    background-color: #eeb46c;
+    text-align: center;
+    /* border: 2px solid red; */
+
+
+}
+
+p{
+    width: 90vw;
+    /* border: 2px solid red; */
+    padding: 1vw;
+}
+
+
+.foot{
+    margin: 6vw 6vw 0vw 6vw;
+    text-align: center;
+    
+    width: 90vw;
+    /* border: 2px solid red; */
+}
+
+.fa-facebook-square, .fa-instagram, .fa-twitter,.fa-whatsapp, .fa-share-square{
+    color: rgb(242, 242, 242);
+    width: 1.1vw;
+    
+}
+
+
+
